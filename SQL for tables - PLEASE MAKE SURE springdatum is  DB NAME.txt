@@ -1,0 +1,24 @@
+
+
+/*FOR enum_district table*/
+create table `enum_district` (
+	`id` int (11),
+	`district` text 
+); 
+insert into `enum_district` (`id`, `district`) values('1','Kathmandu');
+insert into `enum_district` (`id`, `district`) values('2','Lalitpur');
+insert into `enum_district` (`id`, `district`) values('3','Bhaktapur');
+insert into `enum_district` (`id`, `district`) values('4','Chitwans');
+insert into `enum_district` (`id`, `district`) values('5','Nuwakot');
+
+
+/*FOR enum_zone table*/
+create table `enum_zone` (
+	`id` int (4),
+	`zone` text 
+); 
+insert into `enum_zone` (`id`, `zone`) values('1','Mechi');
+insert into `enum_zone` (`id`, `zone`) values('2','Koshi');
+insert into `enum_zone` (`id`, `zone`) values('3','Sagarmatha');
+insert into `enum_zone` (`id`, `zone`) values('4','Janakpur');
+insert into `enum_zone` (`id`, `zone`) values('5','Bagmati');
